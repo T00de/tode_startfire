@@ -1,0 +1,5 @@
+RegisterServerEvent("startFire")
+AddEventHandler("startFire", function(x, y, z, duration, size)
+    TriggerClientEvent('clientStartFire', -1, x, y, z, duration, size)
+    print(string.format("Starting fire at coords: %f, %f, %f with duration %d seconds and size %d meters", x, y, z, duration, size))
+end)
