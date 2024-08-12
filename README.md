@@ -1,4 +1,4 @@
-# tode_startfire
+# jaki_startfire
 
 Start fire. With ox Dialog you can start a fire. You are going to need https://github.com/overextended/ox_lib For this script! 
 
@@ -12,7 +12,7 @@ It easy to uses you tape /startfire and there you start the fire.
 "server.cfg"
 
 ensure ox_lib 
-ensure tode_startfire
+ensure jaki_startfire
 
 ----------------------------
 
